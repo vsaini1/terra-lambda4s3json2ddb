@@ -1,0 +1,23 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "Stmt1609213425701",
+        "Action": "s3:*",
+        "Effect": "Allow",
+        "Resource": "*"
+      },
+      {
+        "Sid": "Stmt1609213481143",
+        "Action": "dynamodb:*",
+        "Effect": "Allow",
+        "Resource": "*"
+      },
+      {
+        "Sid": "Stmt1609213499474",
+        "Action": "logs:*",
+        "Effect": "Allow",
+        "Resource": "*"
+      }
+    ]
+  }
